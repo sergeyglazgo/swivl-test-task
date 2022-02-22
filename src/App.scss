@@ -1,3 +1,21 @@
-.starter {
-  font-size: 18px;
+.page {
+  min-height: 100vh;
+  background-color: #e9e6f2;
+  padding: 20px;
+  color: #4d457b;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+
+  &__content {
+    min-width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+  }
 }

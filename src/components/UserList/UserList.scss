@@ -1,0 +1,38 @@
+.UserList {
+  &__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #ffe0db;
+    transition: background-color 0.3s;
+
+    &-avatar {
+      width: 100px;
+    }
+
+    &-login {
+      font-weight: bold;
+      color: #4d457b;
+    }
+
+    &-info-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+
+  &__item:hover {
+    background-color: #cde4e4;
+  }
+}
